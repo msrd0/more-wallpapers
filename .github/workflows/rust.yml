@@ -19,7 +19,7 @@ jobs:
   doc2readme:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/msrd0/cargo-doc2readme:nightly
+      image: codeberg.org/msrd0/cargo-doc2readme:nightly
     steps:
     - uses: actions/checkout@v3
     - run: apk add --no-cache libxrandr-dev
